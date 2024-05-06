@@ -25,8 +25,15 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Derflex-primo/identity-hub.git
+ 
    cd identity-wall
 
-2. npm install 
+2. Install NPM packages:
+   ```bash
+   npm install
 
-3. npm run dev
+3. Start the development server:
+   ```bash
+   npm run dev
+
+   Visit http://localhost:3000 to view your application.
