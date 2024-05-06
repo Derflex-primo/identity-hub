@@ -119,7 +119,7 @@ export default function Home() {
     >
       <div className="flex flex-col h-auto justify-center w-full items-center">
         <div className="z-10 w-full max-w-5xl items-center justify-between font-medium text-sm lg:flex">
-          <div className="fixed bg-stone-800 opacity-10 text-stone-100 justify-between items-center left-0 top-0 flex w-full border-b border-gray-300 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800  lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4 ">
+          <div className="fixed bg-stone-800 bg-opacity-10 text-stone-100 justify-between items-center left-0 top-0 flex w-full border-b border-gray-300 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800  lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4 ">
             {user ? (
               <div className="flex justify-between items-center w-full px-4">
                 <div className="flex space-x-3">
@@ -143,7 +143,7 @@ export default function Home() {
               </div>
             )}
           </div>
-          <div className="fixed bottom-0 left-0 flex w-full items-center justify-center bg-stone-800 opacity-10 lg:static lg:size-auto lg:bg-none">
+          <div className="fixed bottom-0 left-0 flex w-full items-center justify-center bg-stone-800 bg-opacity-10 lg:static lg:size-auto lg:bg-none">
             <div className="w-full">
               {user ? (
                 <>
