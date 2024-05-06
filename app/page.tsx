@@ -115,7 +115,7 @@ export default function Home() {
 
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between m-2 lg:p-24 bg-black`}
+      className={`flex min-h-screen flex-col items-center justify-between m-2 lg:p-24`}
     >
       <div className="flex flex-col h-auto justify-center w-full items-center">
         <div className="z-10 w-full max-w-5xl items-center justify-between font-medium text-sm lg:flex">
