@@ -1,4 +1,4 @@
-# Identity Wall
+# Identity wall
 
 ## Introduction
 Identity Wall is a web application built using Next.js, React, TypeScript, and Tailwind CSS, integrated with Firebase for authentication and database functionalities. This platform allows users to securely store and manage personal details such as name, connections, gender, occupation, address, social links, and phone numbers. All personal data is kept confidential and users have the ability to add, update, or delete their information as needed.
