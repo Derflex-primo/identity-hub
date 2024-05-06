@@ -8,7 +8,7 @@ interface Props {
 
 const Card: React.FC<Props> = ({ identity, tap }) => {
   return (
-    <div className="block text-stone-200 border-gray-300 dark:border-neutral-800  rounded-xl border bg-stone-800 opacity-10 text-sm  w-auto h-auto">
+    <div className="block text-stone-200 border-gray-300 dark:border-neutral-800  rounded-xl border bg-stone-800 bg-opacity-10 text-sm  w-auto h-auto">
       <div
         onClick={() => tap(identity)}
         className="whitespace-nowrap cursor-pointer overflow-hidden truncate flex justify-start items-center space-x-3 border-b dark:border-neutral-800 p-4"
