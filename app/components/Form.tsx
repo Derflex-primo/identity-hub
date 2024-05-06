@@ -141,7 +141,7 @@ const Form: React.FC<Props> = ({
     <React.Fragment>
       <div
         onClick={user ? handleOpen : handleSignInWithGoogle}
-        className={`flex justify-center bg-black w-full mt-2  border border-gray-300 dark:border-neutral-800 p-3 rounded-xl text-base text-center font-semibold cursor-pointer transition-colors ease-in-out`}
+        className={`flex justify-center bg-black w-full mt-2  text-stone-100 border border-gray-300 dark:border-neutral-800 p-3 rounded-xl text-base text-center font-semibold cursor-pointer transition-colors ease-in-out`}
       >
         {user ? (
           <span onClick={handleOpen}>Click to add</span>
