@@ -119,7 +119,7 @@ export default function Home() {
     >
       <div className="flex flex-col h-auto justify-center w-full items-center">
         <div className="z-10 w-full max-w-5xl items-center justify-between font-medium text-sm lg:flex">
-          <div className="fixed justify-between items-center left-0 top-0 flex w-full border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+          <div className="fixed bg-stone-800 opacity-10  justify-between items-center left-0 top-0 flex w-full border-b border-gray-300 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800  lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4 ">
             {user ? (
               <div className="flex justify-between items-center w-full px-4">
                 <div className="flex space-x-3">
